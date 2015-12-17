@@ -273,6 +273,7 @@ table.keys tr.disabled td.description span { text-decoration: line-through; }
 footer { padding-top: 15px; padding-bottom: 15px; border-top: 1px solid #ccc; }
 
 /* Sara new styles */
+
 ul.awards li.award img {
     width: 228px;
     position: relative;
@@ -317,7 +318,7 @@ ul.awards li.award span.user {
     border-radius: 0pt 0pt 8px 0px;
     bottom: 0pt;
     right: 0pt;
-    width: 126px;
+    width: 128px;
     white-space: normal;
     z-index: -3 !important;
     height: 33px;
@@ -326,26 +327,18 @@ ul.awards li.award a.avatar_image {
     right: initial !important;
 }
 
-ul.awards li.award span.relation::before {
+.relation::before {
     content: " ⇨";
     font-size: 1.25em;
     visibility: visible;
     border-radius: 8px 8px 8px 8px;
     bottom: 40px;
     bottom: 0.5em;
-    left: 128px;
+    left: -10px;
+    position: relative;
     opacity: 0.75;
     width: 15px;
     background: none repeat scroll 0pt 0pt #F00F0F;
     z-index: 3 !important;
-}
-ul.awards li.award span.user {
-    border-radius: 0pt 0pt 8px 0px;
-    bottom: 0pt;
-    right: 0pt;
-    left: -10px;
-    position: relative;
-    white-space: normal;
-    z-index: -3 !important;
-    height: 33px;
+    opacity: 1;
 }
